@@ -37,10 +37,8 @@ module.exports = {
     resolve: {
         extensions: ['.tsx', '.ts', '.js']
     },
-    externals: {
-        //key:包名   value：全局中的jQuery导出的接口
-        three: 'THREE'
-    },
-
-
+    // externals: {
+    //     //key:包名   value：全局中的jQuery导出的接口
+    //     three: 'THREE'
+    // },
 }
